@@ -697,43 +697,89 @@ body {
   </div>
 </section>
 
-<!-- FAQS -->
-<section class="section section-alt">
+<!-- TECHNICAL SPECIFICATIONS -->
+<section class="section" style="background:#f9fafb">
   <div class="container">
     <div class="section-header">
-<h2>Frequently asked questions</h2>
+<h2>CGM SKD technical specifications</h2>
+      <p>Detailed bill of materials, hardware specifications, and manufacturing prerequisites for partners evaluating the CGM SKD model.</p>
     </div>
-    <div class="faq-list">
-      <div class="faq-item">
-        <button class="faq-question"><span class="faq-text">How difficult is it to assemble a CGM SKD kit?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
-        </button>
-        <div class="faq-answer">
-          <p>Assembly is extremely straightforward. Every component features snap-fit mechanisms, and you will hear an audible click when each part is correctly in place. Also, we provide detailed instructions, cleanroom guidelines, quality assurance procedures, and training to ensure smooth assembly and reliable device performance.</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question"><span class="faq-text">What is the difference between CGM OEM and SKD?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
-        </button>
-        <div class="faq-answer">
-          <p>OEM means we manufacture fully finished, ready-to-use CGM devices for you to brand and sell directly. Regulatory certifications such as CE or FDA remain under our responsibility, and you operate under a distributor/importer model.</p>
-          <p>With CGM SKD, we send you separate components including sensor, transmitter, adhesive patch, and applicator. You assemble them locally, which reduces shipping volume and lowers import tariffs since SKD often qualifies for lower duties. However, you must obtain your own local manufacturing or assembly license, complete final quality checks, and take full regulatory responsibility for the finished CGM products in your market.</p>
-          <p>OEM is simpler but relatively more costly. SKD is more flexible, and can often reduce import duties, or meet "Made in Country" requirements but adds regulatory and quality control duties.</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question"><span class="faq-text">Do you provide regulatory support for SKD?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
-        </button>
-        <div class="faq-answer">
-          <p>Yes. For SKD partners, we can provide technical documentation and support needed for local regulatory applications such as CE registration.</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question"><span class="faq-text">Can I get market exclusivity on a CGM SKD model?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
-        </button>
-        <div class="faq-answer">
-          <p>Yes, CGM SKD partnerships are structured with regional or country-level exclusivity to protect your market position.</p>
-        </div>
-      </div>
+    <div style="overflow-x:auto">
+    <table style="width:100%;border-collapse:collapse;font-size:14px;margin-bottom:40px;border:1px solid #e8ecf1">
+      <thead>
+        <tr style="background:#80bce2;color:white">
+          <th style="padding:14px 18px;text-align:left;font-weight:600">SKD module / component</th>
+          <th style="padding:14px 18px;text-align:left;font-weight:600">Description</th>
+          <th style="padding:14px 18px;text-align:left;font-weight:600">Form factor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #e8ecf1">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Biosensor electrode filament</td>
+          <td style="padding:12px 18px;color:#666">Glucose oxidase enzyme-coated electrode, factory-calibrated with lot-specific code</td>
+          <td style="padding:12px 18px;color:#666">Pre-sterilized, single-use filament assembly</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e8ecf1;background:#f5f7fa">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Bluetooth Low Energy PCBA</td>
+          <td style="padding:12px 18px;color:#666">Nordic nRF52832 SoC, integrated antenna, ultra-low-power data transmission</td>
+          <td style="padding:12px 18px;color:#666">Pre-assembled PCB with firmware</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e8ecf1">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Sensor base housing</td>
+          <td style="padding:12px 18px;color:#666">Medical-grade polycarbonate, IP28-rated water-resistant enclosure</td>
+          <td style="padding:12px 18px;color:#666">Unsterilized shell, snap-fit assembly</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e8ecf1;background:#f5f7fa">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Adhesive patch assembly</td>
+          <td style="padding:12px 18px;color:#666">Medical-grade silicone adhesive, breathable, 14-day wear</td>
+          <td style="padding:12px 18px;color:#666">Pre-cut, individually packaged</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e8ecf1">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Applicator / inserter mechanism</td>
+          <td style="padding:12px 18px;color:#666">Spring-loaded insertion, depth-controlled for subcutaneous placement</td>
+          <td style="padding:12px 18px;color:#666">Pre-assembled, single-use mechanism</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e8ecf1;background:#f5f7fa">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Battery unit</td>
+          <td style="padding:12px 18px;color:#666">CR battery cell, pre-soldered leads</td>
+          <td style="padding:12px 18px;color:#666">Standard coin cell</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="font-size:18px;font-weight:600;margin:32px 0 16px;color:#333">Manufacturing prerequisites</h3>
+    <div style="overflow-x:auto">
+    <table style="width:100%;border-collapse:collapse;font-size:14px;margin-bottom:40px;border:1px solid #e8ecf1">
+      <thead>
+        <tr style="background:#80bce2;color:white">
+          <th style="padding:14px 18px;text-align:left;font-weight:600">Requirement</th>
+          <th style="padding:14px 18px;text-align:left;font-weight:600">Specification</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #e8ecf1">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Cleanroom class</td>
+          <td style="padding:12px 18px;color:#666">Class 10,000 (ISO 8) or higher recommended for sensor housing assembly</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e8ecf1;background:#f5f7fa">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Sterilization equipment</td>
+          <td style="padding:12px 18px;color:#666">Ethylene Oxide (EO) sterilization chamber or E-beam for final product sterilization</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e8ecf1">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Calibration rig</td>
+          <td style="padding:12px 18px;color:#666">Lot-specific calibration flashing station provided by EverChek</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e8ecf1;background:#f5f7fa">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Quality management</td>
+          <td style="padding:12px 18px;color:#666">ISO 13485 certification or equivalent quality system</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e8ecf1">
+          <td style="padding:12px 18px;font-weight:600;color:#333">Trained personnel</td>
+          <td style="padding:12px 18px;color:#666">Basic cleanroom protocol training; full assembly SOP provided</td>
+        </tr>
+      </tbody>
+    </table>
     </div>
   </div>
 </section>
@@ -823,6 +869,88 @@ body {
         </tr>
       </tbody>
     </table>
+    </div>
+  </div>
+</section><!-- FAQS -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+<h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question"><span class="faq-text">How difficult is it to assemble a CGM SKD kit?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer">
+          <p>Assembly is extremely straightforward. Every component features snap-fit mechanisms, and you will hear an audible click when each part is correctly in place. Also, we provide detailed instructions, cleanroom guidelines, quality assurance procedures, and training to ensure smooth assembly and reliable device performance.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question"><span class="faq-text">What is the difference between CGM OEM and SKD?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer">
+          <p>OEM means we manufacture fully finished, ready-to-use CGM devices for you to brand and sell directly. Regulatory certifications such as CE or FDA remain under our responsibility, and you operate under a distributor/importer model.</p>
+          <p>With CGM SKD, we send you separate components including sensor, transmitter, adhesive patch, and applicator. You assemble them locally, which reduces shipping volume and lowers import tariffs since SKD often qualifies for lower duties. However, you must obtain your own local manufacturing or assembly license, complete final quality checks, and take full regulatory responsibility for the finished CGM products in your market.</p>
+          <p>OEM is simpler but relatively more costly. SKD is more flexible, and can often reduce import duties, or meet "Made in Country" requirements but adds regulatory and quality control duties.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question"><span class="faq-text">Do you provide regulatory support for SKD?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes. For SKD partners, we can provide technical documentation and support needed for local regulatory applications such as CE registration.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question"><span class="faq-text">Can I get market exclusivity on a CGM SKD model?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes, CGM SKD partnerships are structured with regional or country-level exclusivity to protect your market position.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<!-- FAQS -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+<h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question"><span class="faq-text">How difficult is it to assemble a CGM SKD kit?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer">
+          <p>Assembly is extremely straightforward. Every component features snap-fit mechanisms, and you will hear an audible click when each part is correctly in place. Also, we provide detailed instructions, cleanroom guidelines, quality assurance procedures, and training to ensure smooth assembly and reliable device performance.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question"><span class="faq-text">What is the difference between CGM OEM and SKD?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer">
+          <p>OEM means we manufacture fully finished, ready-to-use CGM devices for you to brand and sell directly. Regulatory certifications such as CE or FDA remain under our responsibility, and you operate under a distributor/importer model.</p>
+          <p>With CGM SKD, we send you separate components including sensor, transmitter, adhesive patch, and applicator. You assemble them locally, which reduces shipping volume and lowers import tariffs since SKD often qualifies for lower duties. However, you must obtain your own local manufacturing or assembly license, complete final quality checks, and take full regulatory responsibility for the finished CGM products in your market.</p>
+          <p>OEM is simpler but relatively more costly. SKD is more flexible, and can often reduce import duties, or meet "Made in Country" requirements but adds regulatory and quality control duties.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question"><span class="faq-text">Do you provide regulatory support for SKD?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes. For SKD partners, we can provide technical documentation and support needed for local regulatory applications such as CE registration.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question"><span class="faq-text">Can I get market exclusivity on a CGM SKD model?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes, CGM SKD partnerships are structured with regional or country-level exclusivity to protect your market position.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
